@@ -29,16 +29,16 @@ export default withMermaid({
   lang: 'zh-cn',
   description: '🌈A programmer,there are his blogs🌈',
   themeConfig: {
-    logo: 'https://cloud.zerlei.cn/f/D5cy/%E4%B8%89%E8%8A%B1%E7%8C%AB.svg',
+    // logo: 'https://cloud.zerlei.cn/f/D5cy/%E4%B8%89%E8%8A%B1%E7%8C%AB.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {text: 'home', link: '/'},
       {text: 'blogs', link: '/blog'},
       {text: 'navigation', link: '/navigation'},
-      // {
-      //   text: '<div class="glow-container">🌈<span class="glow-figer">👆 </span> <span class="glow-text">Looking for a job</span>🌈</div>',
-      //   link: '/docs/tech/project_ca/1-关于我.html'
-      // }
+      {
+        text: '<div class="glow-container">🌈<span class="glow-figer">👆 </span> <span class="glow-text">Looking for a job</span>🌈</div>',
+        link: '/docs/tech/project_ca/1-关于我.html'
+      }
     ],
     // search: {
     //   provider: "local",
