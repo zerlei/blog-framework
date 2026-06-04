@@ -60,7 +60,7 @@ const skill = ref([
 ])
 const focus = ref([
   "c++",
-  "database",
+  "hpc",
   "llvm",
 ])
 const favor = ref([
@@ -76,8 +76,7 @@ const favor = ref([
 const follow = ref([
   "c++",
   "zig",
-  "duckdb",
-  "postgresql"
+  "opencv",
 ])
 
 </script>
