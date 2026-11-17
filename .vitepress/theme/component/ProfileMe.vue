@@ -65,17 +65,18 @@ const focus = ref([
 ])
 const favor = ref([
   "c++",
-  "zig",
   "neovim",
   "vscode",
   "kde",
   "opensuse",
   "zsh",
   "bun",
+  "zig",
+  "nix"
 ])
 const follow = ref([
   "c++",
-  "zig",
+  "cuda",
   "opencv",
 ])
 
